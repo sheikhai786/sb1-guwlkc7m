@@ -3,8 +3,17 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - 'GameSeagullNext/core/**'
+      - 'GameSeagullNext/ios/**'
+      - 'GameSeagullNext/scripts/**'
+      - 'GameSeagullNext/tests/**'
+      - '.github/workflows/build.yml'
 permissions:
   contents: read
+defaults:
+  run:
+    working-directory: GameSeagullNext
 jobs:
   core:
     # Prevent private-repository runner charges under the $0 requirement.
@@ -13,7 +22,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - run: bash GameSeagullNext/scripts/test.sh
+      - run: bash scripts/test.sh
       - uses: actions/upload-artifact@v4
         with:
           name: core-test-results
@@ -24,11 +33,28 @@ jobs:
     needs: core
     runs-on: macos-15
     timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: bash GameSeagullNext/scripts/build-ios.sh
+      - run: bash scripts/build-ios.sh
       - uses: actions/upload-artifact@v4
         with:
           name: GameSeagullNext-UNSIGNED-not-directly-installable
-          path: GameSeagullNext/build/GameSeagullNext-UNSIGNED.ipa
+          path: |
+            GameSeagullNext/build/GameSeagullNext-UNSIGNED.ipa
+            GameSeagullNext/build/GameSeagullNext-UNSIGNED.manifest.json
           retention-days: 3
+      - name: Publish unsigned personal-test download
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          BUILD_SHA: ${{ github.sha }}
+          BUILD_NUMBER: ${{ github.run_number }}
+        run: |
+          gh release create "prototype-build-${BUILD_NUMBER}" \
+            build/GameSeagullNext-UNSIGNED.ipa \
+            build/GameSeagullNext-UNSIGNED.manifest.json \
+            --target "$BUILD_SHA" --prerelease \
+            --title "GameSeagullNext unsigned prototype ${BUILD_NUMBER}" \
+            --notes-file docs/RELEASE_NOTES.md

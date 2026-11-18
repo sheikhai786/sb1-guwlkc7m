@@ -1,6 +1,6 @@
 # Verification and milestone status
 
-**The user's definition of success has not been met.** There is no signed install link, compiled iOS app, physical-device capture test, or verified live gameplay integration. This deliverable is an engineering prototype with tested portable components.
+**The user's definition of success has not been met.** An unsigned iOS app and extension compiled successfully in GitHub Actions run 44252042969. There is no signed install link, physical-device capture test, or verified live gameplay integration. This deliverable is an engineering prototype with tested portable components.
 
 ## Completed evidence
 
@@ -12,9 +12,9 @@
 | Synthetic continuous input | 36/36 frames accepted, 36/36 aim directions detected, 33 distinct predicted outputs | ReplayKit capture, live UI, real-device FPS |
 | Old GamePigeon reference image | 15 detected balls, six pockets, unique cue and observed guide | Held-out accuracy: the same image was used while tuning |
 | Approximate manual ball-center labels | Mean error about 1.79 px, worst about 5.28 px in a 351×640 analysis image | Subpixel accuracy or exact internal game geometry |
-| Swift files | Five files parsed without syntax errors | Swift SDK type checking, linking, extension/PiP correctness |
+| Swift / Objective-C++ / C++ iOS compilation | Compiled and linked for arm64 using Xcode 16.4 / iOS 18.5 SDK | Runtime extension/PiP correctness on iOS 26.4.2 |
 | Xcode project and configuration | Project object graph, plists and privacy manifests parsed | Successful xcodebuild, signing or install |
-| Build pipeline | Source workflow and unsigned build script supplied | Workflow was not uploaded or run |
+| Build pipeline | GitHub core and iOS jobs passed; unsigned IPA uploaded | Signing and physical-device behavior |
 
 Exact host timings and raw results are in `artifacts/`. Host runtimes vary and must not be extrapolated to iPhone latency, battery consumption or extension memory use.
 
@@ -28,8 +28,8 @@ The reference image came from the pool-tool repository at the recorded commit. I
 | 2. Central live proof | **Not achieved on iPhone.** Generated live-frame processing works on the host; that is not a substitute. |
 | 3. Vision | Initial implementation and limited development-fixture tests complete; reliability on current gameplay unverified. |
 | 4. Shot prediction | Geometry/heuristic optimizer and separate dynamics implemented and tested; GamePigeon calibration and measured success rate not done. |
-| 5. Live integration | Swift capture/transport/PiP source implemented; not compiled or device verified. |
-| 6. Installation | Xcode project and free cloud-build configuration prepared; GitHub access and legitimate signing/device installation are blockers. |
+| 5. Live integration | Swift capture/transport/PiP source implemented; compiled, but not device verified. |
+| 6. Installation | Cloud compilation succeeded. Personal signing and physical-device installation remain. |
 | 7. Verification | Portable-core tests and source/config checks complete; end-to-end acceptance incomplete. |
 
 ## Required physical-device acceptance test
@@ -48,3 +48,7 @@ This is an engineering test plan for the agent/developer after a successful sign
 10. Test free-signing renewal with the extension retained. Confirm the actual laptop dependency before describing installation as low effort.
 
 Failure of steps 2–4 means the central proposed phone-only live presentation route has not worked. Do not buy a developer membership or tell the user to rely on it until that failure is understood.
+
+## First cloud compile
+
+[Run 44252042969](https://github.com/sheikhai786/sb1-guwlkc7m/actions/runs/44252042969) passed both jobs. SDK: iOS 18.5; compiler: Xcode 16.4 (16F6); deployment target: iOS 16.0. This is not an iOS 26.4.2 device test. The Swift 5 build reports a forward-compatibility warning about CMSampleBuffer crossing a dispatch queue; Swift 6 strict-concurrency migration is not claimed. The sample is retained by the closure and analysis is bounded by a semaphore.

@@ -7,4 +7,5 @@ xcodebuild -project GameSeagullNext.xcodeproj -scheme GameSeagullNext -configura
 mkdir -p build/package/Payload
 cp -R build/ios/Build/Products/Release-iphoneos/GameSeagullNext.app build/package/Payload/
 (cd build/package && zip -qr ../GameSeagullNext-UNSIGNED.ipa Payload)
+python3 scripts/inspect-ipa.py build/GameSeagullNext-UNSIGNED.ipa
 echo 'Unsigned IPA built. It must be legitimately signed before installation.'

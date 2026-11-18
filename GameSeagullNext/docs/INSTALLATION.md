@@ -1,39 +1,44 @@
-# What you can install today
+# Install the personal-test prototype
 
-**There is no installable build or TestFlight link yet.** The delivered ZIP is a source project, not an app. Renaming it to `.ipa`, downloading it in Safari, or installing a profile will not make it run.
+The app and ReplayKit extension have compiled successfully on GitHub. Download `GameSeagullNext-UNSIGNED.ipa` from this repository's **Releases** page. The manifest beside it records package checks and its SHA-256. This is an unsigned experimental app, not a one-tap Safari install or a tested GamePigeon overlay.
 
-No money was spent. Do not buy an Apple Developer membership to test whether the live view works.
+No money was spent. Do not buy an Apple Developer membership or a certificate for this test.
 
-## Smallest next action
+## If you already have AltStore Classic
 
-The agent needs access to a dedicated GitHub repository or a GitHub browser sign-in to create one and run the free macOS compile workflow. The connected GitHub account returned no accessible repositories; the browser reached GitHub's sign-in screen. No repository, CI run or release was created. Once access is available, the technical uploading/building work can be handled by the agent. A public repository is the intended $0 standard-runner path; do not add private data or signing keys.
+1. Download the IPA in Safari and save it to Files. Use the IPA asset, not GitHub's Source code ZIP.
+2. Open AltStore Classic, select My Apps, tap +, and select the IPA from Files. Use your configured AltServer or Remote AltServer.
+3. **Keep the app extensions** if asked. `Seagull Next Capture` is required.
+4. Complete any Apple-account verification in the installer. Never share Apple passwords or codes in chat.
 
-That compiles the prototype but still does not prove it works on the phone. A physical-device test must happen before any paid-distribution decision.
+## If you do not have AltStore yet
 
-## Cheapest installation candidate after compilation
+For this US iPhone / $0 setup, no verified entirely phone-only initial installation route was established. Use your Windows laptop for initial AltStore installation and pairing:
 
-The best documented free fallback found is **AltStore Classic with your Windows laptop and your own Apple Account**. It does not require owning a Mac. Exact iOS 26.4.2 compatibility and retaining the ReplayKit extension still need to be tested.
+1. Follow the [official Windows installation guide](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows). Install its linked Apple dependencies and the latest official AltServer. Windows AltServer 1.7.4 fixed iOS 26.4 signing/launch issues; use that or later.
+2. Connect the unlocked iPhone by USB, tap Trust, and enable Wi-Fi sync as the guide directs.
+3. In the Windows tray, select AltServer > Install AltStore > your iPhone, and sign in with your own Apple Account.
+4. On iPhone, trust your own developer identity in Settings > General > VPN & Device Management. Enable Settings > Privacy & Security > Developer Mode and restart if requested.
+5. Install the IPA using the steps above. No Mac or Xcode is needed.
 
-Do not follow these steps until there is a successfully compiled IPA and the agent has checked its contents:
+Do not disable antivirus or install unrelated profiles to get past an error. If signing fails, keep the actual error for diagnosis rather than purchasing a certificate.
 
-1. Install AltServer for Windows from [AltStore's official site](https://altstore.io/) and the Apple dependencies listed in its [Windows guide](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows).
-2. Connect the unlocked iPhone once, approve Trust, and enable Wi-Fi sync as that guide directs.
-3. Use AltServer's “Install AltStore” with your own Apple Account. Enter credentials only in the legitimate installation flow, never in this chat.
-4. On the iPhone, trust your own developer identity and enable Developer Mode when requested.
-5. Open the compiled IPA in AltStore and **retain the broadcast extension**. The companion app alone cannot capture GamePigeon. If signing or extension installation fails, stop and inspect the error; do not buy a certificate to bypass it.
+## Reduce future laptop use
 
-Free provisioning expires after seven days. AltServer can refresh over the same Wi-Fi network, but the laptop is still needed periodically. It should not be required during a match if the on-device prototype passes testing. This is **not** a promise of one-time-only Windows setup.
+AltStore Classic 2.3 and later provide Remote AltServer. In AltStore Settings, choose **Set up Remote AltServer**, complete its PC-pairing step, and install LocalDevVPN through that official setup flow. The official guide then supports installing and renewing apps on Wi-Fi with LocalDevVPN enabled, without your computer connected. Cellular alone does not work for that flow. This is a documented installation option, not a test performed on your iPhone.
 
-## Intended use after a successful device test
+Free signing normally lasts seven days. Refresh AltStore and Seagull Next before expiration. If Remote AltServer is unavailable, use the paired laptop as the fallback. The laptop is not intended to process gameplay.
+
+Sources: [Remote AltServer setup](https://github.com/altstoreio/FAQ/blob/main/altstore-classic/remote-altservers.md), [AltStore releases](https://github.com/altstoreio/FAQ/blob/main/release-notes/altstore.md), [AltServer releases](https://github.com/altstoreio/FAQ/blob/main/release-notes/altserver.md).
+
+## First live test
 
 1. Open Seagull Next and tap **Start receiver**.
-2. Tap the screen-broadcast button, select **Seagull Next Capture** if prompted, and start broadcasting.
+2. Tap **Start screen broadcast** and select **Seagull Next Capture**. Leave the microphone off.
 3. Tap **Open floating view**, then open GamePigeon in Messages.
-4. Place the floating window outside the pool table. White/cyan/orange lines show estimated cue/object/post-contact paths; dashed green lines show a proposed shot. You still aim and shoot manually.
-5. Stop the broadcast through Control Center when finished. Stopping only the receiver does not stop ReplayKit's system broadcast.
+4. Keep the floating window away from the pool table. It should show a continuously changing miniature table as you adjust the cue.
+5. Stop screen broadcasting in Control Center when finished.
 
-If the preview freezes in Messages, PiP cannot start, the extension disappears, or the detector cannot see the table, the central hypothesis failed on that device. Do not interpret a frozen diagram as live guidance.
+This draws a miniature table in Picture in Picture, not transparent lines on GamePigeon itself. Screen capture may include visible messages; frames are processed locally and audio is discarded.
 
-## If you require the exact original experience
-
-The prototype's miniature table will not satisfy a requirement for transparent lines directly on the actual GamePigeon table. No verified supported, free, phone-only installation and overlay solution was established. A separately modified game copy remains unverified and is not included. Paying for signing does not remove the platform UI restriction.
+If the window freezes, PiP fails to start, or the broadcast extension is missing, the central live route has not passed its physical-device test. A successful compile does not prove it works on iPhone 12 Pro / iOS 26.4.2. No calibrated shot-power percentage or guaranteed wins are claimed.

@@ -1,6 +1,6 @@
 # GameSeagull Next — engineering prototype
 
-**This is source code and tested host-side components, not an installable or device-verified iPhone release. No purchase is needed or recommended at this stage.**
+**This prototype has compiled successfully on GitHub. The IPA is unsigned and has not been installed or device-verified. No purchase is needed or recommended at this stage.**
 
 The original goal was a $0, no-jailbreak, iPhone-only live GamePigeon aiming overlay. No verified route satisfying all those conditions was found. Ordinary signing cannot give a separate app the ability to draw transparent, table-aligned lines inside the installed GamePigeon extension.
 
@@ -13,12 +13,12 @@ This project implements the closest plausible independent native alternative: a 
 - Separate time-stepped simulation with friction, restitution, ball collisions and pockets. This is tested but is not used to manufacture uncalibrated game-power percentages in the live UI.
 - SwiftUI controls, ReplayKit sample handler, bounded frame processing, orientation handling, loopback transport, sample-buffer PiP renderer and stale-frame suppression while the renderer is running.
 - Ordinary Xcode project, Info.plists, privacy manifests, project generator and an unsigned iOS build script.
-- A GitHub Actions workflow ready to test the core and compile the app on a standard public-repository macOS runner. It has **not** run. Private repository jobs are disabled to avoid runner charges.
+- A GitHub Actions workflow ready to test the core and compile the app on a standard public-repository macOS runner. The first run passed on November 18, 2026 (UTC), using Xcode 16.4 / iOS 18.5 SDK. Private repository jobs are disabled to avoid runner charges.
 - Test logs, reference-image measurements and a clearly labeled synthetic animation.
 
 ## What was actually verified
 
-The C++ core compiled and ran on Linux. The verification report in `docs/VERIFICATION.md` contains the exact outcomes. The iOS app and extension have **not** been compiled, signed, installed, or tested. The generated Xcode project is build preparation, not a successful build.
+The C++ core compiled and ran on Linux. The verification report in `docs/VERIFICATION.md` contains the exact outcomes. The iOS app and extension compiled and linked for arm64 in [GitHub Actions run 1](https://github.com/sheikhai786/sb1-guwlkc7m/actions/runs/44252042969). Signing, installation, and iOS 26.4.2 live operation remain untested.
 
 ## Where to start
 
@@ -38,7 +38,7 @@ No external C++ library is required. The optional reference-image and synthetic-
 
 ## Cloud iOS build
 
-Once repository access is available, the agent can publish this tree to a dedicated public repository and run its workflow. The resulting `GameSeagullNext-UNSIGNED.ipa` is **not directly installable**. No signing secrets are needed for that compile check. `scripts/build-ios.sh` is also runnable on an authorized macOS build host; the user does not need to own a Mac.
+The project lives in the `GameSeagullNext/` directory of this repository. The root workflow builds on relevant pushes to `main` and can also be run manually. Download successful unsigned builds from the repository Releases page. The resulting `GameSeagullNext-UNSIGNED.ipa` is **not directly installable**. No signing secrets are needed for that compile check. `scripts/build-ios.sh` is also runnable on an authorized macOS build host; the user does not need to own a Mac.
 
 ## Provenance
 
