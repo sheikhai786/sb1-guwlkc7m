@@ -1,0 +1,34 @@
+name: Test core and build unsigned iOS prototype
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  core:
+    # Prevent private-repository runner charges under the $0 requirement.
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash GameSeagullNext/scripts/test.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: core-test-results
+          path: GameSeagullNext/artifacts/
+          retention-days: 3
+  ios:
+    if: github.event.repository.private == false
+    needs: core
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash GameSeagullNext/scripts/build-ios.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GameSeagullNext-UNSIGNED-not-directly-installable
+          path: GameSeagullNext/build/GameSeagullNext-UNSIGNED.ipa
+          retention-days: 3
