@@ -1,0 +1,855 @@
+[
+  {
+    "title": "AVKit",
+    "fragments": null,
+    "url": "/documentation/avkit"
+  },
+  {
+    "title": "AVPictureInPictureController",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureController"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller"
+  },
+  {
+    "title": "AVPictureInPictureController.ContentSource",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "ContentSource"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/contentsource-swift.class"
+  },
+  {
+    "title": "canStartPictureInPictureAutomaticallyFromInline",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "canStartPictureInPictureAutomaticallyFromInline"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/canstartpictureinpictureautomaticallyfrominline"
+  },
+  {
+    "title": "canStopPictureInPicture",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "canStopPictureInPicture"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/canstoppictureinpicture"
+  },
+  {
+    "title": "contentSource",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "contentSource"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureControllerContentSource",
+        "text": "ContentSource"
+      },
+      {
+        "kind": "text",
+        "text": "?"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/contentsource-swift.property"
+  },
+  {
+    "title": "delegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "delegate"
+      },
+      {
+        "kind": "text",
+        "text": ": (any "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(pl)AVPictureInPictureControllerDelegate",
+        "text": "AVPictureInPictureControllerDelegate"
+      },
+      {
+        "kind": "text",
+        "text": ")?"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/delegate"
+  },
+  {
+    "title": "init(contentSource:)",
+    "fragments": [
+      {
+        "kind": "identifier",
+        "text": "init"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "contentSource"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": "."
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureControllerContentSource",
+        "text": "ContentSource"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/init(contentsource:)"
+  },
+  {
+    "title": "init(playerLayer:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "convenience"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "init"
+      },
+      {
+        "kind": "text",
+        "text": "?("
+      },
+      {
+        "kind": "externalParam",
+        "text": "playerLayer"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPlayerLayer",
+        "text": "AVPlayerLayer"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/init(playerlayer:)"
+  },
+  {
+    "title": "invalidatePlaybackState()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "invalidatePlaybackState"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/invalidateplaybackstate()"
+  },
+  {
+    "title": "isPictureInPictureActive",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "isPictureInPictureActive"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/ispictureinpictureactive"
+  },
+  {
+    "title": "isPictureInPicturePossible",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "isPictureInPicturePossible"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/ispictureinpicturepossible"
+  },
+  {
+    "title": "isPictureInPictureSupported()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "isPictureInPictureSupported"
+      },
+      {
+        "kind": "text",
+        "text": "() -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/ispictureinpicturesupported()"
+  },
+  {
+    "title": "isPictureInPictureSuspended",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "isPictureInPictureSuspended"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/ispictureinpicturesuspended"
+  },
+  {
+    "title": "pictureInPictureButtonStartImage",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureButtonStartImage"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UIImage",
+        "text": "UIImage"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/pictureinpicturebuttonstartimage"
+  },
+  {
+    "title": "pictureInPictureButtonStartImage(compatibleWith:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureButtonStartImage"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "compatibleWith"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UITraitCollection",
+        "text": "UITraitCollection"
+      },
+      {
+        "kind": "text",
+        "text": "?) -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UIImage",
+        "text": "UIImage"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/pictureinpicturebuttonstartimage(compatiblewith:)"
+  },
+  {
+    "title": "pictureInPictureButtonStopImage",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureButtonStopImage"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UIImage",
+        "text": "UIImage"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/pictureinpicturebuttonstopimage"
+  },
+  {
+    "title": "pictureInPictureButtonStopImage(compatibleWith:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureButtonStopImage"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "compatibleWith"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UITraitCollection",
+        "text": "UITraitCollection"
+      },
+      {
+        "kind": "text",
+        "text": "?) -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)UIImage",
+        "text": "UIImage"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/pictureinpicturebuttonstopimage(compatiblewith:)"
+  },
+  {
+    "title": "playerLayer",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "playerLayer"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPlayerLayer",
+        "text": "AVPlayerLayer"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/playerlayer"
+  },
+  {
+    "title": "requiresLinearPlayback",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "var"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "requiresLinearPlayback"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/requireslinearplayback"
+  },
+  {
+    "title": "startPictureInPicture()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "startPictureInPicture"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/startpictureinpicture()"
+  },
+  {
+    "title": "stopPictureInPicture()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "stopPictureInPicture"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller/stoppictureinpicture()"
+  },
+  {
+    "title": "AVPictureInPictureControllerDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureControllerDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontrollerdelegate"
+  },
+  {
+    "title": "AVPictureInPictureSampleBufferPlaybackDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureSampleBufferPlaybackDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate"
+  },
+  {
+    "title": "AVPictureInPictureVideoCallViewController",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureVideoCallViewController"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturevideocallviewcontroller"
+  },
+  {
+    "title": "AVPlayerViewPictureInPictureDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPlayerViewPictureInPictureDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avplayerviewpictureinpicturedelegate"
+  },
+  {
+    "title": "NSObject",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "NSObject"
+      }
+    ],
+    "url": "/documentation/objectivec/nsobject-swift.class"
+  },
+  {
+    "title": "NSObjectProtocol",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "NSObjectProtocol"
+      }
+    ],
+    "url": "/documentation/objectivec/nsobjectprotocol"
+  },
+  {
+    "title": "CVarArg",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CVarArg"
+      }
+    ],
+    "url": "/documentation/swift/cvararg"
+  },
+  {
+    "title": "CustomDebugStringConvertible",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CustomDebugStringConvertible"
+      }
+    ],
+    "url": "/documentation/swift/customdebugstringconvertible"
+  },
+  {
+    "title": "CustomStringConvertible",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CustomStringConvertible"
+      }
+    ],
+    "url": "/documentation/swift/customstringconvertible"
+  },
+  {
+    "title": "Equatable",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "Equatable"
+      }
+    ],
+    "url": "/documentation/swift/equatable"
+  },
+  {
+    "title": "Hashable",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "Hashable"
+      }
+    ],
+    "url": "/documentation/swift/hashable"
+  }
+]

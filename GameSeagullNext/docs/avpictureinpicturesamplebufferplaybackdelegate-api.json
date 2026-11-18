@@ -1,0 +1,384 @@
+[
+  {
+    "title": "AVKit",
+    "fragments": null,
+    "url": "/documentation/avkit"
+  },
+  {
+    "title": "AVPictureInPictureController",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureController"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontroller"
+  },
+  {
+    "title": "AVPictureInPictureControllerDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureControllerDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturecontrollerdelegate"
+  },
+  {
+    "title": "AVPictureInPictureSampleBufferPlaybackDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureSampleBufferPlaybackDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate"
+  },
+  {
+    "title": "pictureInPictureController(_:didTransitionToRenderSize:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "externalParam",
+        "text": "didTransitionToRenderSize"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:@SA@CMVideoDimensions",
+        "text": "CMVideoDimensions"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontroller(_:didtransitiontorendersize:)"
+  },
+  {
+    "title": "pictureInPictureController(_:setPlaying:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "externalParam",
+        "text": "setPlaying"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontroller(_:setplaying:)"
+  },
+  {
+    "title": "pictureInPictureController(_:skipByInterval:completion:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "externalParam",
+        "text": "skipByInterval"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:@SA@CMTime",
+        "text": "CMTime"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "externalParam",
+        "text": "completion"
+      },
+      {
+        "kind": "text",
+        "text": ": () -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:s4Voida",
+        "text": "Void"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontroller(_:skipbyinterval:completion:)"
+  },
+  {
+    "title": "pictureInPictureControllerIsPlaybackPaused(_:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureControllerIsPlaybackPaused"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ") -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontrollerisplaybackpaused(_:)"
+  },
+  {
+    "title": "pictureInPictureControllerShouldProhibitBackgroundAudioPlayback(_:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureControllerShouldProhibitBackgroundAudioPlayback"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ") -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:Sb",
+        "text": "Bool"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontrollershouldprohibitbackgroundaudioplayback(_:)"
+  },
+  {
+    "title": "pictureInPictureControllerTimeRangeForPlayback(_:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "pictureInPictureControllerTimeRangeForPlayback"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)AVPictureInPictureController",
+        "text": "AVPictureInPictureController"
+      },
+      {
+        "kind": "text",
+        "text": ") -> "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:@SA@CMTimeRange",
+        "text": "CMTimeRange"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturesamplebufferplaybackdelegate/pictureinpicturecontrollertimerangeforplayback(_:)"
+  },
+  {
+    "title": "AVPictureInPictureVideoCallViewController",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPictureInPictureVideoCallViewController"
+      }
+    ],
+    "url": "/documentation/avkit/avpictureinpicturevideocallviewcontroller"
+  },
+  {
+    "title": "AVPlayerViewPictureInPictureDelegate",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "AVPlayerViewPictureInPictureDelegate"
+      }
+    ],
+    "url": "/documentation/avkit/avplayerviewpictureinpicturedelegate"
+  },
+  {
+    "title": "NSObjectProtocol",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "NSObjectProtocol"
+      }
+    ],
+    "url": "/documentation/objectivec/nsobjectprotocol"
+  }
+]

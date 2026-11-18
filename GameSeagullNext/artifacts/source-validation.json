@@ -1,0 +1,26 @@
+[
+  {
+    "file": "ios/App/GameSeagullNextApp.swift",
+    "syntaxErrors": []
+  },
+  {
+    "file": "ios/App/LiveController.swift",
+    "syntaxErrors": []
+  },
+  {
+    "file": "ios/App/Models.swift",
+    "syntaxErrors": []
+  },
+  {
+    "file": "ios/Broadcast/SampleHandler.swift",
+    "syntaxErrors": []
+  },
+  {
+    "file": "ios/Shared/Transport.swift",
+    "syntaxErrors": []
+  },
+  {
+    "xcodeProjectObjects": 50,
+    "note": "Parsing only. Not Xcode compilation or SDK type checking."
+  }
+]

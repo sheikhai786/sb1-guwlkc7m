@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/mikee478/pool-tool/blob/dcf9656afcd740e956ca4f830205d705c46d42c6/pool-tool-screenshot.png",
+  "evaluation": "Development fixture used during tuning; NOT held-out validation. Approximate labels.",
+  "imageSize": [
+    351,
+    640
+  ],
+  "ballCount": 15,
+  "pocketCount": 6,
+  "valid": true,
+  "meanCenterErrorPixels": 1.7939317533425034,
+  "maxCenterErrorPixels": 5.277070368579657,
+  "hostMilliseconds": 16.72558099971866,
+  "manualClassCheck": "15/15 kinds appear consistent with visible solid/stripe/cue/eight appearance; ball numbers are not recognized."
+}

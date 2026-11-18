@@ -1,0 +1,41 @@
+PASS: ray first contact
+PASS: tangent ray
+PASS: behind ray rejected
+PASS: zero ray rejected
+PASS: segment perpendicular distance
+PASS: segment endpoint clamp
+PASS: nearest ball collision
+PASS: finite radius impact location
+PASS: object trajectory emitted
+PASS: tangent contact does not impart object velocity
+PASS: two-object combination generated through ghost contacts
+PASS: multiple rail reflections bounded
+PASS: rail inset by ball radius
+PASS: side pocket scratch detection
+PASS: blocked path rejected
+PASS: clear path accepted
+PASS: rank direct and bank candidates
+PASS: bank solution generated
+PASS: shot ranking descending
+PASS: group filter excludes solids
+PASS: eight ball withheld by default
+PASS: eight ball explicit eligibility
+PASS: invalid detection suppresses recommendations
+PASS: equal mass collision transfers velocity
+PASS: elastic kinetic energy conserved
+PASS: adaptive time step prevents fast-ball tunneling
+PASS: rail restitution changes speed
+PASS: rolling deceleration applied
+PASS: dynamic pocket capture
+PASS: synthetic complete table accepted
+PASS: three balls detected with connected guideline removed
+PASS: six dark pockets verified
+PASS: observed cue direction from white guideline
+PASS: unique white cue classified
+PASS: ambiguous cue fails closed
+PASS: empty table fails closed
+PASS: black frame rejected
+PASS: null input rejected
+PASS: invalid row stride rejected
+PASS: missing pocket fails closed
+RESULT: 40 checks passed. Synthetic 320x600 analysis mean 52.8605 ms (host only).

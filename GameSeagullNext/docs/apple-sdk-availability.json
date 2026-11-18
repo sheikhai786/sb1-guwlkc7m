@@ -1,0 +1,49 @@
+{
+  "availableLanguages": [
+    "de-DE",
+    "en-US",
+    "es-419",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "pt-BR",
+    "zh-CN"
+  ],
+  "externalID": "ScreenCaptureKit",
+  "modules": [
+    {
+      "name": "ScreenCaptureKit"
+    }
+  ],
+  "platforms": [
+    {
+      "introducedAt": "27.0",
+      "name": "iOS"
+    },
+    {
+      "introducedAt": "27.0",
+      "name": "iPadOS"
+    },
+    {
+      "introducedAt": "18.2",
+      "name": "Mac Catalyst"
+    },
+    {
+      "introducedAt": "12.3",
+      "name": "macOS"
+    },
+    {
+      "introducedAt": "27.0",
+      "name": "tvOS"
+    },
+    {
+      "introducedAt": "27.0",
+      "name": "visionOS"
+    }
+  ],
+  "role": "collection",
+  "roleHeading": "Framework",
+  "symbolKind": "module",
+  "title": "ScreenCaptureKit"
+}

@@ -1,0 +1,62 @@
+{
+  "size": 90278934,
+  "bundles": [
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/Base.lproj/MainInterface.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/AppLovinSDKResources.bundle/ALDMultiAdViewController.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/AppLovinSDKResources.bundle/Info.plist",
+      "CFBundleIdentifier": "com.applovin.sdk.resources",
+      "CFBundleVersion": "10000",
+      "MinimumOSVersion": "9.0"
+    },
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/MainInterface.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/Info.plist",
+      "CFBundleIdentifier": "com.gamerdelights.gamepigeon.ext",
+      "CFBundleVersion": "16",
+      "MinimumOSVersion": "10.0",
+      "CFBundleExecutable": "MessagesExtension",
+      "NSExtension": {
+        "NSExtensionPointIdentifier": "com.apple.message-payload-provider",
+        "NSExtensionMainStoryboard": "MainInterface"
+      }
+    },
+    {
+      "path": "Payload/Game Pack.app/PlugIns/MessagesExtension.appex/Storyboard.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/Base.lproj/LaunchScreen.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/MainInterface.storyboardc/Info.plist"
+    },
+    {
+      "path": "Payload/Game Pack.app/Info.plist",
+      "CFBundleIdentifier": "com.gamerdelights.gamepigeon",
+      "CFBundleVersion": "16",
+      "MinimumOSVersion": "10.0",
+      "CFBundleExecutable": "Game Pack"
+    }
+  ],
+  "libraries": [
+    "Payload/Game Pack.app/Frameworks/libswiftCoreImage.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftObjectiveC.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftCore.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftCoreGraphics.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftUIKit.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftMetal.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftDispatch.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftos.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftCoreFoundation.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftDarwin.dylib",
+    "Payload/Game Pack.app/Frameworks/gameseagull.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftQuartzCore.dylib",
+    "Payload/Game Pack.app/Frameworks/libswiftFoundation.dylib"
+  ]
+}

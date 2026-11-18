@@ -1,0 +1,517 @@
+[
+  {
+    "title": "CMSampleBuffer",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CMSampleBuffer"
+      }
+    ],
+    "url": "/documentation/coremedia/cmsamplebuffer"
+  },
+  {
+    "title": "NSExtensionRequestHandling",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "NSExtensionRequestHandling"
+      }
+    ],
+    "url": "/documentation/foundation/nsextensionrequesthandling"
+  },
+  {
+    "title": "NSObjectProtocol",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "NSObjectProtocol"
+      }
+    ],
+    "url": "/documentation/objectivec/nsobjectprotocol"
+  },
+  {
+    "title": "CVarArg",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CVarArg"
+      }
+    ],
+    "url": "/documentation/swift/cvararg"
+  },
+  {
+    "title": "CustomDebugStringConvertible",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CustomDebugStringConvertible"
+      }
+    ],
+    "url": "/documentation/swift/customdebugstringconvertible"
+  },
+  {
+    "title": "CustomStringConvertible",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "CustomStringConvertible"
+      }
+    ],
+    "url": "/documentation/swift/customstringconvertible"
+  },
+  {
+    "title": "Equatable",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "Equatable"
+      }
+    ],
+    "url": "/documentation/swift/equatable"
+  },
+  {
+    "title": "Hashable",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "protocol"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "Hashable"
+      }
+    ],
+    "url": "/documentation/swift/hashable"
+  },
+  {
+    "title": "ReplayKit",
+    "fragments": null,
+    "url": "/documentation/replaykit"
+  },
+  {
+    "title": "RPApplicationInfoBundleIdentifierKey",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "let"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPApplicationInfoBundleIdentifierKey"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:SS",
+        "text": "String"
+      }
+    ],
+    "url": "/documentation/replaykit/rpapplicationinfobundleidentifierkey"
+  },
+  {
+    "title": "RPBroadcastController",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPBroadcastController"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastcontroller"
+  },
+  {
+    "title": "RPBroadcastHandler",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPBroadcastHandler"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcasthandler"
+  },
+  {
+    "title": "RPBroadcastMP4ClipHandler",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPBroadcastMP4ClipHandler"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastmp4cliphandler"
+  },
+  {
+    "title": "RPBroadcastSampleHandler",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "class"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPBroadcastSampleHandler"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler"
+  },
+  {
+    "title": "broadcastAnnotated(withApplicationInfo:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "broadcastAnnotated"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "withApplicationInfo"
+      },
+      {
+        "kind": "text",
+        "text": ": ["
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:s11AnyHashableV",
+        "text": "AnyHashable"
+      },
+      {
+        "kind": "text",
+        "text": " : "
+      },
+      {
+        "kind": "keyword",
+        "text": "Any"
+      },
+      {
+        "kind": "text",
+        "text": "])"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/broadcastannotated(withapplicationinfo:)"
+  },
+  {
+    "title": "broadcastFinished()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "broadcastFinished"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/broadcastfinished()"
+  },
+  {
+    "title": "broadcastPaused()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "broadcastPaused"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/broadcastpaused()"
+  },
+  {
+    "title": "broadcastResumed()",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "broadcastResumed"
+      },
+      {
+        "kind": "text",
+        "text": "()"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/broadcastresumed()"
+  },
+  {
+    "title": "broadcastStarted(withSetupInfo:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "broadcastStarted"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "externalParam",
+        "text": "withSetupInfo"
+      },
+      {
+        "kind": "text",
+        "text": ": ["
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:SS",
+        "text": "String"
+      },
+      {
+        "kind": "text",
+        "text": " : "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:objc(cs)NSObject",
+        "text": "NSObject"
+      },
+      {
+        "kind": "text",
+        "text": "]?)"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/broadcaststarted(withsetupinfo:)"
+  },
+  {
+    "title": "finishBroadcastWithError(_:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "finishBroadcastWithError"
+      },
+      {
+        "kind": "text",
+        "text": "(any "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:s5ErrorP",
+        "text": "Error"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/finishbroadcastwitherror(_:)"
+  },
+  {
+    "title": "processSampleBuffer(_:with:)",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "func"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "processSampleBuffer"
+      },
+      {
+        "kind": "text",
+        "text": "("
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:@T@CMSampleBufferRef",
+        "text": "CMSampleBuffer"
+      },
+      {
+        "kind": "text",
+        "text": ", "
+      },
+      {
+        "kind": "externalParam",
+        "text": "with"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "c:@E@RPSampleBufferType",
+        "text": "RPSampleBufferType"
+      },
+      {
+        "kind": "text",
+        "text": ")"
+      }
+    ],
+    "url": "/documentation/replaykit/rpbroadcastsamplehandler/processsamplebuffer(_:with:)"
+  },
+  {
+    "title": "RPVideoSampleOrientationKey",
+    "fragments": [
+      {
+        "kind": "keyword",
+        "text": "let"
+      },
+      {
+        "kind": "text",
+        "text": " "
+      },
+      {
+        "kind": "identifier",
+        "text": "RPVideoSampleOrientationKey"
+      },
+      {
+        "kind": "text",
+        "text": ": "
+      },
+      {
+        "kind": "typeIdentifier",
+        "preciseIdentifier": "s:SS",
+        "text": "String"
+      }
+    ],
+    "url": "/documentation/replaykit/rpvideosampleorientationkey"
+  }
+]
